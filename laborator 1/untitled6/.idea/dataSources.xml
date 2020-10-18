@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Tj@localhost" uuid="07a4d945-ae9f-4734-ae82-9e08a6c7d5d2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Tj</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="src:main:webapp:hibernate.cfg.xml/Hibernate" uuid="c3942d8f-f11b-4b94-8222-6020131da152">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/parlo/IdeaProject/untitled6/src/main/webapp/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/Tj</jdbc-url>
+    </data-source>
+  </component>
+</project>
