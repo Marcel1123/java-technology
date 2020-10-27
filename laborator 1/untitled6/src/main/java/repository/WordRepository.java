@@ -30,7 +30,7 @@ public class WordRepository {
     }
     public List<String> getSpecificWords(String characters){
         TypedQuery<String> wordTypedQuery = entityManager.createQuery(
-                "select distinct w.word from words w where length(trim(both :data from w.word)) = 0", String.class
+                "select distinct w.word from words w where length(trim(trailing :data from w.word)) = 0", String.class
         );
         return wordTypedQuery.setParameter("data", characters).getResultList();
     }
