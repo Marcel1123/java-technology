@@ -5,7 +5,7 @@
 <%@ page import="java.util.stream.Collectors" %>
 <%@ page import="java.util.UUID" %>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page errorPage="eror.jsp" %>
+<%@ page errorPage="error.jsp" %>
 <html>
 <head>
     <title>Input</title>
@@ -33,7 +33,9 @@
                                     }
                                 }
                             }
-
+                            if(languageS.isEmpty()){
+                                languageS = UUID.randomUUID().toString();
+                            }
                             for (Language language : languages){
                                 if(language.getId().equals(UUID.fromString(languageS))){
                                     out.println("<option value=" + language.getId() + "\" selected >" + language.getName() + "</option>");

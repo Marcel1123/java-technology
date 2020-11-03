@@ -9,17 +9,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fd91e54-1180-4c4b-ae2b-a5195efce57f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07a4d945-ae9f-4734-ae82-9e08a6c7d5d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/07a4d945-ae9f-4734-ae82-9e08a6c7d5d2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07a4d945-ae9f-4734-ae82-9e08a6c7d5d2/storage_v2/_src_/database/Tj.lgoAAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/07a4d945-ae9f-4734-ae82-9e08a6c7d5d2/storage_v2/_src_/database/Tj.lgoAAA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/WordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/WordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/WordRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/untitled6.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/untitled6.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/untitled6/WEB-INF/classes/repository/WordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/untitled6/WEB-INF/classes/repository/WordRepository.class" afterDir="false" />
-    </list>
+    <list default="true" id="9fd91e54-1180-4c4b-ae2b-a5195efce57f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,6 +232,7 @@
       <workItem from="1602916568927" duration="29595000" />
       <workItem from="1603205593181" duration="1231000" />
       <workItem from="1603363276487" duration="1360000" />
+      <workItem from="1604316722716" duration="86000" />
     </task>
     <servers />
   </component>

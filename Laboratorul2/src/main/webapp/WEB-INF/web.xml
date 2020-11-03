@@ -3,6 +3,19 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+  <filter>
+      <filter-name>InputFilter</filter-name>
+      <filter-class>filters.InputFilter</filter-class>
+      <init-param>
+        <param-name>defaultLanguage</param-name>
+        <param-value>2b3bbaf7-b4cf-4065-8899-55bfa56f9ede</param-value>
+      </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>InputFilter</filter-name>
+    <url-pattern>/input</url-pattern>
+  </filter-mapping>
+
   <servlet>
     <servlet-name>DBServlet</servlet-name>
     <servlet-class>servlets.DBServlet</servlet-class>

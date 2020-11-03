@@ -25,14 +25,6 @@ public class InputServlet extends HttpServlet {
         String word = request.getParameter("word");
         String definition = request.getParameter("definition");
 
-        if(word.isEmpty()){
-            throw new WordException("Word name missing");
-        }
-
-        if(definition.isEmpty()){
-            throw new DefinitionException("Word definition missing");
-        }
-
         try {
             UUID languageId = UUID.fromString(language);
 
