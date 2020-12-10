@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+</h:head>
+
+<body>
+<h:form>
+    <h1>Welcome to Meeting Scheduling!</h1>
+    <h:commandButton id="meeting" action="meeting.xhtml?faces-redirect=true" value="Add meeting"/>
+    <br/>
+    <h:commandButton id="person" action="person.xhtml?faces-redirect=true" value="Add person"/>
+    <br/>
+</h:form>
+
+</body>
+</html>

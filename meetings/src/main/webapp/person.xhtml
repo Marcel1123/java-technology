@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h2>Person name:</h2>
+        <h:inputText id="name" value="#{createPerson.name}"/>
+        <h:messages globalOnly="true"/>
+        <h:commandButton id="submit" action="#{createPerson.savePerson}" value="Add person"/>
+        <br/>
+        <h:commandButton id="index" action="index.xhtml" value="HomePage"/>
+    </h:form>
+
+</h:body>
+
+</html>

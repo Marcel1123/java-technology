@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+</h:head>
+
+<body>
+<h:form>
+    <h2>Topic:</h2>
+    <h:inputText id="topic" value="#{createMeeting.meeting.topic}"/>
+
+    <h2>Time:</h2>
+    <p:datePicker id="time" value="#{createMeeting.meeting.startingTime}" showTime="true"/>
+
+    <h2>Duration:</h2>
+    <h:inputText id="duration" value="#{createMeeting.meeting.duration}" converterMessage="Enter a number of minutes"/>
+    <br/>
+    <br/>
+
+    <p:selectManyCheckbox id="checkboxPerson" value="#{createMeeting.persons}">
+        <f:selectItems value="#{createMeeting.persons}" var="person"
+                       itemLabel="#{person.name}"
+                       itemValue="#{person.id}"/>
+    </p:selectManyCheckbox>
+
+    <br/>
+    <h:commandButton id="submit" action="#{createMeeting.saveMeeting}" value="Add meeting"/>
+    <h:commandButton id="index" action="index.xhtml" value="HomePage"/>
+</h:form>
+</body>
+</html>
